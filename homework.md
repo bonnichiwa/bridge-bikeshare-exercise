@@ -32,7 +32,7 @@ Hint 2: You don't have to do it all in one query
 
 Answer:
 
-```
+```sql
 CREATE TABLE stations_temp(id integer NOT NULL, name varchar(50) NOT NULL, total integer NOT NULL);
 
 INSERT INTO stations_temp
